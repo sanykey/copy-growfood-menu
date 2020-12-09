@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Copy GF menu to md",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://growfood.pro/*"
+      ],
+      "js": ["app.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
